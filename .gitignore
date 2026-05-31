@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit secrets
+server/.env
+client/.env.local
+client/.env*.local
+
+# Next.js build output
+client/.next/
+client/out/
+
+# TypeScript build cache
+client/tsconfig.tsbuildinfo
+
+# macOS
+.DS_Store
+
+# Claude Code internals
+server/.claude/
+client/AGENTS.md
+client/CLAUDE.md
+
+# Logs
+*.log
+npm-debug.log*
